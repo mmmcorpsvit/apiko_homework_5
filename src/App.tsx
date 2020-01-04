@@ -1,13 +1,13 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import {Header} from './components/MainMenu/Header';
+import {MainMenu} from './components/MainMenu/';
 
 const App: React.FC = () => {
     return (
         <div className="App">
 
-            <Header/>
+            <MainMenu/>
         </div>
     );
 };

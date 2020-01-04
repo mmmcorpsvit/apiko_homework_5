@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    //    ############
+//    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    //    ############
     "baseUrl": ".",
     "esModuleInterop": true,
     "module": "esnext",
@@ -11,7 +16,7 @@
     ],
     "sourceMap": true,
     "target": "es6",
-    "noUnusedLocals": true,
+//    "noUnusedLocals": true,
     "skipLibCheck": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
