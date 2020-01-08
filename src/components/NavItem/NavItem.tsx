@@ -12,8 +12,8 @@ import "./style.scss";
 export interface INavItem {
     // __typename: "Navigation item";
 
-    url: string;
-    name: string;
+    path: string;
+    caption: string;
     // chldren?: any;  // not use
     children?: void;
 }
@@ -24,8 +24,8 @@ export interface INavItem {
 const NavItem: React.FC<INavItem> = (props) => {
     return (
         // <a className="active" href="<props.link>">props.text</a>
-        <Link to={props.url}>
-            {props.name}
+        <Link to={props.path}>
+            {props.caption}
         </Link>
     );
 };
