@@ -21,7 +21,7 @@ export interface INavItem {
 // export type NavItems = INavItem[];
 // export interface NavItems extends Array<INavItem>{}
 
-const NavItem: React.FC<INavItem> = (props) => {
+export const NavItem: React.FC<INavItem> = (props) => {
     return (
         // <a className="active" href="<props.link>">props.text</a>
         <Link to={props.path}>
@@ -30,4 +30,4 @@ const NavItem: React.FC<INavItem> = (props) => {
     );
 };
 
-export default NavItem;
+// export default NavItem;

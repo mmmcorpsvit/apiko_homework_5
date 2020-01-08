@@ -19,6 +19,12 @@ NavBar залишається зверху доступний. При введе
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Links
+
+https://habr.com/ru/company/otus/blog/456124/
+https://reach.tech/router/example/animation
+https://www.npmjs.com/package/use-query-params#examples
+
 ## Available Scripts
 
 In the project directory, you can run:
