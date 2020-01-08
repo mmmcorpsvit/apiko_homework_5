@@ -8,12 +8,19 @@ import {decorate, observable} from "mobx";
 
 import {history} from "./history";
 import './App.css';
-import {NavBar} from './components/NavBar/';
-import {NavItem} from './components/NavItem/';
+// import NavBar from './components/NavBar/';
+
+
+// import {NavItem} from './components/NavItem/';
 // import {NavItemProps} from "./components/NavBar/types";
 import {HomePage} from "./scenes/Home";
 import {ShopPage} from "./scenes/Shop";
 import {ReviewsPage} from "./scenes/Rewiews";
+
+
+import NavBar from "./components/NavBar/NavBar";
+import NavItem from "./components/NavItem/NavItem";
+
 
 // import {NavItemProps} from "./components/NavBar/types";
 
