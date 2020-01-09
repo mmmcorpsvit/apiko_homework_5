@@ -2,7 +2,7 @@ import React, {Fragment} from "react";
 import "./style.scss";
 
 
-const NavBar: React.FC = (props) => {
+export const NavBar: React.FC = (props) => {
     return (
         <Fragment>
             {/*<nav className="main-menu" id="header">*/}
@@ -14,4 +14,4 @@ const NavBar: React.FC = (props) => {
     )
 };
 
-export default NavBar;
+// export default NavBar;

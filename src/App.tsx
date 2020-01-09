@@ -7,13 +7,8 @@ import {decorate, observable} from "mobx";
 import {history} from "./history";
 import './App.css';
 
-import {HomePage} from "./scenes/Home";
-import {ShopPage} from "./scenes/Shop";
-import {ReviewsPage} from "./scenes/Rewiews";
-
-
-import NavBar from "./components/NavBar/NavBar";
-import {INavItem, NavItem} from "./components/NavItem";
+import {HomePage, ReviewsPage, ShopPage} from "./scenes";
+import {NavBar, INavItem, NavItem} from "./components";
 
 
 const NavBarItems: INavItem[] = [
